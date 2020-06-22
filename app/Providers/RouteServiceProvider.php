@@ -49,9 +49,6 @@ class RouteServiceProvider extends ServiceProvider
         $this->mapAdminRoutes();
 
 
-        $this->mapManagerRoutes();
-
-
         $this->mapBlogRoutes();
     }
 
@@ -102,19 +99,6 @@ class RouteServiceProvider extends ServiceProvider
     }
 
 
-    /**
-     * Define the "manager" routes for the application.
-     *
-     * These routes are typically stateless.
-     *
-     * @return void
-     */
-    protected function mapManagerRoutes()
-    {
-        Route::prefix('manager')
-            ->namespace($this->namespace)
-            ->group(base_path('routes/manager.php'));
-    }
     /**
      * Define the "blog" routes for the application.
      *
