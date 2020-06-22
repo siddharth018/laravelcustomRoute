@@ -19,6 +19,9 @@ Last step: check from your
 
 http://localhost:8000
 
+http://127.0.0.1:8000/blog
+http://127.0.0.1:8000/admin
+
 Watch Video: 
 
 [![Everything Is AWESOME](https://i.ytimg.com/vi/Xs_ohuTsdx8/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLD-31X8Qe1tfe0fV_Ysd6qAXQx3VA)](https://youtu.be/Xs_ohuTsdx8 "Everything Is AWESOME")
